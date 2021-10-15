@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var selectedDegree = 0
     @State private var ButtonSwitch = false
     var ageMin = 18.0
-    var ageMax = 34.0
+    var ageMax = 35.0
     var typesOfDegree = ["undergraduate","master"]
     private var enableButton: Bool {
         !username.isEmpty && !password.isEmpty
